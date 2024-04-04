@@ -1,0 +1,79 @@
+h6{
+    color: chocolate;
+    font-style: italic;
+}
+
+section{
+    background-color: chartreuse;
+}
+
+ol{
+    background-color: bisque;
+}
+
+ul{
+    list-style-type: square;
+}
+
+span.special{ /*yaha particularlly bus span ke under wala special class me changes hua hai */
+    font: 400;
+    color: cadetblue;
+    font-weight: bolder;
+}
+
+
+li.special{/*yaha particularlly bus li ke under wala special class me changes hua hai */
+    color: blueviolet;
+    font: 800;
+    font-weight: bolder;
+}
+
+a.special:hover {/* isme a.special dhala to jo index me special hai i.e github wala usme bus hover ho raha hai agar special nahi likhega to sabme hoega */
+    color: darkcyan;
+    background-color: rgb(163, 28, 28);
+    text-decoration: none;
+}
+
+#nigga{/*ye id selectro wala hai */
+    background-color: bisque;
+    color: rgb(94, 131, 119);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li[class~="halo"]{/*bus li ke under class jiska name halo hai ussi me change hua , agar halo naih likhta to class special me bhi changes ho jata*/
+    color: rgb(236, 106, 145);
+}
+
+footer a{
+    padding: 30px;
+    color: aliceblue;
+    text-decoration: none;
+
+}
+
+footer{
+   
+    background-color: black;
+    font-size: larger;
+    text-align: center;
+    padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+footer a:hover{
+    color: chocolate;
+}
+
+.tabla{
+    border-collapse: collapse;
+}
+table.tabla tr,
+table.tabla th,
+table.tabla td
+{
+    border: 2px solid black;
+    padding: 10px;
+    border-spacing: 5px;
+}
+

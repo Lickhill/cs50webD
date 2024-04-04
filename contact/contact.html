@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+   <style>
+    .background{
+        background-image: url(image/tele.jpg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: 10px;
+        margin: 1px 30px;
+    }
+   </style>
+   <style>
+    .para{
+        margin-bottom: -30px;
+    }
+   </style>
+
+   <style>
+    .bodies{
+        margin-top: 80px;
+    }
+   </style>
+
+   </style>
+
+</head>
+ 
+<body class="background">
+
+  <p  class="para" style="font-size: 50px; font-weight: 800; font-family:Georgia, 'Times New Roman', Times, serif">Contact Form</p>
+  <p class="para" >  Please fill all the texts in the fileds.</p>
+  
+
+  <div class="bodies">
+
+  <p>Name:</p>
+ <p><input type="text" name="name" placeholder="Likhil Maiya" required</p>
+
+ <p>Email:</p>
+ <p><input type="email" name="email"  placeholder="Your@gmail.com"  required</p>
+
+ <p>Phone Number:</p>
+ <p><input type="number" name="phonenumber" placeholder="1234567890" required</p>
+<fieldset class="message">
+    <legend>Message</legend>
+    <textarea style="width: 100%;"></textarea>
+
+</fieldset>
+<p>Subject:</p>
+<p>
+<select name="subject" id="subject" required> 
+<option value="">--Select a Subject--</option>
+<option value="Job">Job</option>
+<option value="Die">Die</option>
+<option value="kill">Kill</option>
+</select>
+</p>
+</div>
+   
+    
+</body>
+</html>
